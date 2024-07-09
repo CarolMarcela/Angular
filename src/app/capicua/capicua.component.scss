@@ -1,0 +1,59 @@
+div {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 3px solid#760959d2;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Heading style */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input field style */
+  input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Button style */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #760959d2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e87ccd;
+  }
+  
+  /* Result message styles */
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  p.ng-invalid {
+    color: red;
+  }
+  
+  p.ng-valid {
+    color: green;
+  }
+  
